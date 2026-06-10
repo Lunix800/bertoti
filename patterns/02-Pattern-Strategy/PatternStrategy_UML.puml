@@ -1,0 +1,16 @@
+@startuml
+title Pattern Strategy
+
+class Organizador
+interface Estrategia
+class PorPrazo
+class PorPrioridade
+class Tarefa
+
+Organizador --> Estrategia
+Organizador o-- Tarefa
+Estrategia <|.. PorPrazo
+Estrategia <|.. PorPrioridade
+
+@enduml
+

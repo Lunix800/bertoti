@@ -1,0 +1,16 @@
+@startuml
+title Pattern Observer
+
+class Tarefa
+interface Observador
+class Email
+class Painel
+class Historico
+
+Tarefa o-- Observador
+Observador <|.. Email
+Observador <|.. Painel
+Observador <|.. Historico
+
+@enduml
+

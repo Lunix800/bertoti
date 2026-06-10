@@ -1,0 +1,13 @@
+@startuml
+title Pattern Composite
+
+interface Item
+class Tarefa
+class Projeto
+
+Item <|.. Tarefa
+Item <|.. Projeto
+Projeto o-- Item
+
+@enduml
+

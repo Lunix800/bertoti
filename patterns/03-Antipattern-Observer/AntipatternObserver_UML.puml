@@ -1,0 +1,17 @@
+@startuml
+title Antipattern Observer
+
+class Tarefa {
+  + concluir()
+  - enviarEmail()
+  - atualizarPainel()
+  - salvarHistorico()
+}
+
+note right of Tarefa
+A tarefa faz tudo sozinha.
+Fica acoplada aos avisos.
+end note
+
+@enduml
+

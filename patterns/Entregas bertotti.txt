@@ -1,0 +1,25 @@
+Padroes de Projeto - Entregas
+
+Diagrama geral da materia:
+   Arquivo: Diagrama_Geral.svg
+
+1. Antipattern Strategy UML + Java
+   Pasta: 01-Antipattern-Strategy
+
+2. Pattern Strategy UML + Java
+   Pasta: 02-Pattern-Strategy
+
+3. Antipattern Observer UML + Java
+   Pasta: 03-Antipattern-Observer
+
+4. Pattern Observer UML + Java
+   Pasta: 04-Pattern-Observer
+
+5. Antipattern Composite UML + Java
+   Pasta: 05-Antipattern-Composite
+
+6. Pattern Composite UML + Java
+   Pasta: 06-Pattern-Composite
+
+7. Strategy + Observer + Composite = MVC Java
+   Pasta: 07-MVC

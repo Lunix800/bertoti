@@ -1,0 +1,18 @@
+@startuml
+title Antipattern Composite
+
+class AntipatternComposite
+class Tarefa
+class Projeto
+
+AntipatternComposite --> Tarefa
+AntipatternComposite --> Projeto
+Projeto o-- Tarefa
+
+note right of AntipatternComposite
+Trata tarefas e projetos
+em listas separadas.
+end note
+
+@enduml
+

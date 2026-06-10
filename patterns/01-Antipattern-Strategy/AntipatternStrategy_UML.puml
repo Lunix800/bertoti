@@ -1,0 +1,22 @@
+@startuml
+title Antipattern Strategy
+
+class AntipatternStrategy {
+  + organizar(tarefas, criterio)
+}
+
+class Tarefa {
+  nome
+  prazo
+  prioridade
+}
+
+AntipatternStrategy --> Tarefa
+
+note right of AntipatternStrategy
+Usa if/else para escolher
+o jeito de organizar.
+end note
+
+@enduml
+
